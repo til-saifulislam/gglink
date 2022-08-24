@@ -7,7 +7,6 @@ And example of a Laravel package.
 - Load views
 - Login
 - Logout
-- Push middleware
 - Profile ( add, edit, update, delete )
 - Permissions
 - Report
