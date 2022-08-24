@@ -1,16 +1,17 @@
-# Laravel Package Example
+# Laravel Gglink Package
 
 And example of a Laravel package.
 
 - Load controllers
 - Load routes
 - Load views
-- Register migrations
-- Register commands
+- Login
+- Logout
 - Push middleware
-- Bind Facade
-- Publish configurations, resources, assets
-- Use another package
+- Profile ( add, edit, update, delete )
+- Permissions
+- Report
+- Exception handler
 
 ### Installation
 
