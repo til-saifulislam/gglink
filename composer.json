@@ -1,0 +1,19 @@
+{
+    "name": "alien/gglink",
+    "description": "Assessment Project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alien\\Gglink\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saiful",
+            "email": "saiful3000@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}
