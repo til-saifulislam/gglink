@@ -2,10 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('hi', function(){
-    return 'Hello';
-});
-
 Route::get('user-login', [Alien\Gglink\Http\Controller\UserAuthController::class, 'index']);
 Route::post('/auth/login', [Alien\Gglink\Http\Controller\UserAuthController::class, 'loginUser']);
 
