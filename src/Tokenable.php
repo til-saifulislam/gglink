@@ -5,10 +5,8 @@ use Illuminate\Support\Str;
 
 Trait Tokenable 
 {
-    public function generateAndSaveApiAuthToken()
+    public function generateAndSaveApiAuthToken($token)
     {
-        $token = Str::random(60);
-
         $this->api_token = $token;
         $this->save();
 
